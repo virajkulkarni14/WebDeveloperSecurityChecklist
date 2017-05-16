@@ -26,6 +26,13 @@
 
 # Web Traffic
 
+- [ ] Use TLS for the entire site, not just login forms and responses. Never use TLS for just the login form.
+- [ ] Cookies must be httpOnly and secure and be scoped by path and domain.
+- [ ] Use CSP without allowing unsafe-* backdoors. It is a pain to configure, but worthwhile.
+- [ ] Use X-Frame-Option, X-XSS-Protection headers in client responses
+- [ ] Use HSTS responses to force TLS only access. Redirect all HTTP request to HTTPS on the server as backup.
+- [ ] Use CSRF tokens in all forms and use the new SameSite Cookie response header which fixes CSRF once and for all newer browsers.
+
 # APIs
 
 # Validation
