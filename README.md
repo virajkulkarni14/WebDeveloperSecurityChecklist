@@ -20,6 +20,10 @@ A checklist of important security issues you should consider when creating a web
 - [Test](CHECKLIST.md#test)
 - [Finally have a plan](CHECKLIST.md#finally-have-a-plan)
 
+## Contributing
+
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
