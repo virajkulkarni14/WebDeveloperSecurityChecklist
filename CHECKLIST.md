@@ -20,6 +20,10 @@
 
 # Denial of Service Protection
 
+- [ ] Make sure that DOS attacks on your APIs won’t cripple your site. At a minimum, have rate limiters on your slower API paths like login and token generation routines.
+- [ ] Enforce sanity limits on the size and structure of user submitted data and requests.
+- [ ] Use Distributed Denial of Service (DDOS) mitigation via a global caching proxy service like CloudFlare. This can be turned on if you suffer a DDOS attack and otherwise function as your DNS lookup.
+
 # Web Traffic
 
 # APIs
