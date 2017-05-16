@@ -65,7 +65,13 @@
 - [ ] Use an Intrusion Detection System like SenseDeep or service to minimize APTs.
 
 # Operation
+- [ ] Power off unused services and servers. The most secure server is one that is powered down.
 
 # Test
+- [ ] Audit your design and implementation.
+- [ ] Do penetration testing — hack yourself, but also have someone other than you pen testing as well.
 
 # Finally, have a plan
+- [ ] Have a threat model that describes what you are defending against. It should list and prioritize the possible threats and actors.
+- [ ] Have a practiced security incident plan. One day, you will need it.
+
