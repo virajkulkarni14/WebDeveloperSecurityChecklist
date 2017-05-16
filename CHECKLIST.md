@@ -1,7 +1,7 @@
 # Database
 
 - [ ] Use encryption for data identifying users and sensitive data like access tokens, email addresses or billing details.
-- [ ] If your database supports low cost encryption at rest (like AWS Aurora), then enable that to secure data on disk. Make sure all backups are stored encrypted as well.
+- [ ] If your database supports low cost encryption at rest (like [AWS Aurora](https://aws.amazon.com/about-aws/whats-new/2015/12/amazon-aurora-now-supports-encryption-at-rest/)), then enable that to secure data on disk. Make sure all backups are stored encrypted as well.
 - [ ] Use minimal privilege for the database access user account. Don’t use the database root account.
 - [ ] Store and distribute secrets using a key store designed for the purpose. Don’t hard code in your applications.
 - [ ] Fully prevent SQL injection by only using SQL prepared statements. For example: if using NPM, don’t use npm-mysql, use npm-mysql2 which supports prepared statements.
@@ -22,7 +22,7 @@
 
 - [ ] Make sure that DOS attacks on your APIs won’t cripple your site. At a minimum, have rate limiters on your slower API paths like login and token generation routines.
 - [ ] Enforce sanity limits on the size and structure of user submitted data and requests.
-- [ ] Use Distributed Denial of Service (DDOS) mitigation via a global caching proxy service like CloudFlare. This can be turned on if you suffer a DDOS attack and otherwise function as your DNS lookup.
+- [ ] Use [Distributed Denial of Service](https://en.wikipedia.org/wiki/Denial-of-service_attack) (DDOS) mitigation via a global caching proxy service like [CloudFlare](https://www.cloudflare.com/). This can be turned on if you suffer a DDOS attack and otherwise function as your DNS lookup.
 
 # Web Traffic
 
@@ -31,7 +31,7 @@
 - [ ] Use CSP without allowing unsafe-* backdoors. It is a pain to configure, but worthwhile.
 - [ ] Use X-Frame-Option, X-XSS-Protection headers in client responses
 - [ ] Use HSTS responses to force TLS only access. Redirect all HTTP request to HTTPS on the server as backup.
-- [ ] Use CSRF tokens in all forms and use the new SameSite Cookie response header which fixes CSRF once and for all newer browsers.
+- [ ] Use CSRF tokens in all forms and use the new [SameSite Cookie](https://scotthelme.co.uk/csrf-is-dead/) response header which fixes CSRF once and for all newer browsers.
 
 # APIs
 
@@ -61,8 +61,8 @@
 - [ ] Use centralized logging for all services. You should never need SSH to access or retrieve logs.
 - [ ] Don’t SSH into services except for one-off diagnosis. Using SSH regularly, typically means you have not automated an important task.
 - [ ] Don’t keep port 22 open on any AWS service groups on a permanent basis.
-- [ ] Create immutable hosts instead of long-lived servers that you patch and upgrade. (See Immutable Infrastructure Can Be More Secure).
-- [ ] Use an Intrusion Detection System like SenseDeep or service to minimize APTs.
+- [ ] Create [immutable hosts](http://chadfowler.com/2013/06/23/immutable-deployments.html) instead of long-lived servers that you patch and upgrade. (See [Immutable Infrastructure Can Be More Secure](https://simplesecurity.sensedeep.com/immutable-infrastructure-can-be-dramatically-more-secure-238f297eca49)).
+- [ ] Use an [Intrusion Detection System](https://en.wikipedia.org/wiki/Intrusion_detection_system) like [SenseDeep](https://www.sensedeep.com/) or service to minimize [APTs](https://en.wikipedia.org/wiki/Advanced_persistent_threat).
 
 # Operation
 - [ ] Power off unused services and servers. The most secure server is one that is powered down.
