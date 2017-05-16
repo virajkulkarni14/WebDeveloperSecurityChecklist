@@ -35,6 +35,9 @@
 
 # APIs
 
+- [ ] Ensure that no resources are enumerable in your public APIs.
+- [ ] Ensure that users are fully authenticated and authorized appropriately when using your APIs.
+
 # Validation
 
 # Cloud Configuration
