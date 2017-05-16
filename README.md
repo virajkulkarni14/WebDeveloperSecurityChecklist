@@ -20,3 +20,8 @@ A checklist of important security issues you should consider when creating a web
 - [Test](CHECKLIST.md#test)
 - [Finally have a plan](CHECKLIST.md#finally-have-a-plan)
 
+## License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Viraj Kulkarni](http://virajkulkarni.me/) has waived all copyright and related or neighboring rights to this work.
