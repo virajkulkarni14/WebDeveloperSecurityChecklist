@@ -8,6 +8,10 @@
 
 # Development
 
+- [ ] Ensure that all components of your software are scanned for vulnerabilities for every version pushed to production. This means O/S, libraries and packages. This should be automated into the CI-CD process.
+- [ ] Secure development systems with equal vigilance to what you use for production systems. Build the software from secured, isolated development systems.
+
+
 # Authentication
 
 # Denial of Service Protection
