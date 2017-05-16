@@ -2,7 +2,7 @@
 
 Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms. These guidlines were inspired by [Awesome](https://github.com/sindresorhus/awesome).
 
-## Following guidelines while adding to this list
+## Adhering to guidelines while adding to this list
 
 Please ensure your pull request adheres to the following guidelines:
 
@@ -22,7 +22,7 @@ If you have something awesome to contribute to this list, this is how you do it.
 
 You'll need a [GitHub account](https://github.com/join)!
 
-1. Access the awesome list's GitHub page. For example: https://github.com/virajkulkarni14/WebDeveloperSecurityChecklist
+1. Access this list's GitHub page here: https://github.com/virajkulkarni14/WebDeveloperSecurityChecklist
 2. Click on the `CHECKLIST.md` file.
 3. Now click on the edit icon.
 4. You can start editing the text of the file in the in-browser editor. Make sure you follow guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
@@ -31,6 +31,6 @@ You'll need a [GitHub account](https://github.com/join)!
 
 ## Updating your Pull Request
 
-Sometimes, a maintainer of an awesome list will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-* list guidelines.
+Sometimes, a maintainer of this list will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the above guidelines.
 
 [Here](https://github.com/RichardLitt/docs/blob/master/amending-a-commit-guide.md) is a write up on how to change a Pull Request, and the different ways you can do that.
