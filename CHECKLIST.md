@@ -14,6 +14,10 @@
 
 # Authentication
 
+- [ ] Ensure all passwords are hashed using appropriate crypto such as bcrypt. Never write your own crypto and correctly initialize crypto with good random data.
+- [ ] Implement simple but adequate password rules that encourage users to have long, random passwords.
+- [ ] Use multi-factor authentication for your logins to all your service providers.
+
 # Denial of Service Protection
 
 # Web Traffic
