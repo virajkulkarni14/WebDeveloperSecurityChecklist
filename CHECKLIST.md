@@ -40,6 +40,9 @@
 
 # Validation
 
+- [ ] Do client-side input validation for quick user feedback, but never trust it.
+- [ ] Validate every last bit of user input using white lists on the server. Never directly inject user content into responses. Never use user input in SQL statements.
+
 # Cloud Configuration
 
 # Infrastructure
