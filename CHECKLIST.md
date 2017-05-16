@@ -56,6 +56,14 @@
 
 # Infrastructure
 
+- [ ] Ensure you can do upgrades without downtime. Ensure you can quickly update software in a fully automated manner.
+- [ ] Create all infrastructure using a tool such as Terraform, and not via the cloud console. Infrastructure should be defined as “code” and be able to be recreated at the push of a button. Have zero tolerance for any resource created in the cloud by hand — Terraform can then audit your configuration.
+- [ ] Use centralized logging for all services. You should never need SSH to access or retrieve logs.
+- [ ] Don’t SSH into services except for one-off diagnosis. Using SSH regularly, typically means you have not automated an important task.
+- [ ] Don’t keep port 22 open on any AWS service groups on a permanent basis.
+- [ ] Create immutable hosts instead of long-lived servers that you patch and upgrade. (See Immutable Infrastructure Can Be More Secure).
+- [ ] Use an Intrusion Detection System like SenseDeep or service to minimize APTs.
+
 # Operation
 
 # Test
