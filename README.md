@@ -18,11 +18,15 @@ A checklist of important security issues you should consider when creating a web
 - [Infrastructure](CHECKLIST.md#infrastructure)
 - [Operation](CHECKLIST.md#operation)
 - [Test](CHECKLIST.md#test)
-- [Finally have a plan](CHECKLIST.md#finally-have-a-plan)
+- [Finally, have a plan](CHECKLIST.md#finally-have-a-plan)
 
 ## Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## Similar Lists
+- [Security Guide for Developers](https://git.io/security)
+
 
 ## License
 
