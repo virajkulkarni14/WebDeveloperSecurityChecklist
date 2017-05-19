@@ -11,7 +11,6 @@
 - [ ] Ensure that all components of your software are scanned for vulnerabilities for every version pushed to production. This means O/S, libraries and packages. This should be automated into the CI-CD process.
 - [ ] Secure development systems with equal vigilance to what you use for production systems. Build the software from secured, isolated development systems.
 
-
 # Authentication
 
 - [ ] Ensure all passwords are hashed using appropriate crypto such as bcrypt. Never write your own crypto and correctly initialize crypto with good random data.
@@ -29,7 +28,7 @@
 - [ ] Use TLS for the entire site, not just login forms and responses. Never use TLS for just the login form.
 - [ ] Cookies must be httpOnly and secure and be scoped by path and domain.
 - [ ] Use CSP without allowing unsafe-* backdoors. It is a pain to configure, but worthwhile.
-- [ ] Use X-Frame-Option, X-XSS-Protection headers in client responses
+- [ ] Use X-Frame-Option, X-XSS-Protection headers in client responses.
 - [ ] Use HSTS responses to force TLS only access. Redirect all HTTP request to HTTPS on the server as backup.
 - [ ] Use CSRF tokens in all forms and use the new [SameSite Cookie](https://scotthelme.co.uk/csrf-is-dead/) response header which fixes CSRF once and for all newer browsers.
 
@@ -51,7 +50,7 @@
 - [ ] Ensure all services only accept data from a minimal set of IP addresses.
 - [ ] Restrict outgoing IP and port traffic to minimize APTs and “botification”.
 - [ ] Always use AWS IAM roles and not root credentials.
-- [ ] Use minimal access privilege for all ops and developer staff
+- [ ] Use minimal access privilege for all ops and developer staff.
 - [ ] Regularly rotate passwords and access keys according to a schedule.
 
 # Infrastructure
