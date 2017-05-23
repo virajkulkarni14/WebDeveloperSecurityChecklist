@@ -105,7 +105,7 @@ A checklist of important security issues you should consider when creating a web
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## Similar Lists
-- [Security Guide for Developers](https://git.io/security)
+Check out or [add](CONTRIBUTING.md) similar security checklists [here](SIMILAR.md).
 
 
 ## License
