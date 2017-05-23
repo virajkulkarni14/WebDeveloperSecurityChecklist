@@ -37,10 +37,10 @@
 - [ ] Ensure that no resources are enumerable in your public APIs.
 - [ ] Ensure that users are fully authenticated and authorized appropriately when using your APIs.
 
-# Validation && Encoding
+# Validation & Encoding
 
 - [ ] Do client-side input validation for quick user feedback, but never trust it.
-- [ ] Validate every last bit of user input following a whitelist approach on the server. Never directly display user content into responses, instead always encode user input. If user input is displayed in non-HTML code, for example if it is displayed inside JavaScript code, always enforce strict validation and ensure special characters are encoded if possible. If not, strip them off. Never use user input in SQL statements.
+- [ ] Validate every last bit of user input following a whitelist approach on the server. Never use untrusted user input in SQL statements or server-side contexts that are being evaluated. Always validate and encode user input before displaying in responses.
 
 # Cloud Configuration
 
