@@ -59,7 +59,7 @@
 - [ ] Create all infrastructure using a tool such as Terraform, and not via the cloud console. Infrastructure should be defined as “code” and be able to be recreated at the push of a button. Have zero tolerance for any resource created in the cloud by hand — Terraform can then audit your configuration.
 - [ ] Use centralized logging for all services. You should never need SSH to access or retrieve logs.
 - [ ] Don’t SSH into services except for one-off diagnosis. Using SSH regularly, typically means you have not automated an important task.
-- [ ] Don’t keep port 22 open on any AWS service groups on a permanent basis.
+- [ ] Don’t keep port 22 open on any AWS service groups on a permanent basis. Instead consider allowing only authorized IPs to SSH on the box.
 - [ ] Create [immutable hosts](http://chadfowler.com/2013/06/23/immutable-deployments.html) instead of long-lived servers that you patch and upgrade. (See [Immutable Infrastructure Can Be More Secure](https://simplesecurity.sensedeep.com/immutable-infrastructure-can-be-dramatically-more-secure-238f297eca49)).
 - [ ] Use an [Intrusion Detection System](https://en.wikipedia.org/wiki/Intrusion_detection_system) like [SenseDeep](https://www.sensedeep.com/) or service to minimize [APTs](https://en.wikipedia.org/wiki/Advanced_persistent_threat).
 
